@@ -1,0 +1,5 @@
+module ckafka [system] {
+  header "ckafka.h"
+  link "rdkafka"
+  export *
+}
